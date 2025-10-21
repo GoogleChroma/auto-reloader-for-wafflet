@@ -1,6 +1,6 @@
-# Wait 5 seconds, then start pressing Command+R every 0.05 seconds
+# Wait 5 seconds, then start pressing Command+R every 0.02 seconds
 sleep 5
 while true; do
   osascript -e 'tell application "System Events" to tell process "Google Chrome" to keystroke "r" using command down'
-  sleep 0.05
+  sleep 0.02
 done
